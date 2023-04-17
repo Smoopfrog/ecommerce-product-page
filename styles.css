@@ -2,4 +2,39 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: solid 1px hsl(223, 64%, 98%);
+}
+
+.header-text {
+  display: flex;
+  gap: 24px;
+}
+
+.header-links {
+  display: flex;
+  color: hsl(219, 9%, 45%);
+  font-size: 16px;
+  gap: 16px;
+}
+
+.header-icons{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.avatar {
+  width: 38px;
 }

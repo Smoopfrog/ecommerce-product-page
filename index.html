@@ -11,7 +11,12 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Frontend Mentor | E-commerce product page</title>
     <link rel="stylesheet" href="styles.css" />
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -27,18 +32,20 @@
   </head>
   <body>
     <header>
-      <h1>
-        <img src="images/logo.svg" alt="sneakers" />
-      </h1>
-      <div>
-        <div>Collections</div>
-        <div>Men</div>
-        <div>Women</div>
-        <div>About</div>
-        <div>Contact</div>
+      <div class="header-text">
+        <img src="images/logo.svg" alt="sneakers" class="logo" />
+        <div class="header-links">
+          <div>Collections</div>
+          <div>Men</div>
+          <div>Women</div>
+          <div>About</div>
+          <div>Contact</div>
+        </div>
       </div>
-      <img src="images/icon-cart.svg" alt="cart">
-      <img src="images/image-avatar.png" alt="dude">
+      <div class="header-icons">
+        <img src="images/icon-cart.svg" alt="cart" class="cart" />
+        <img src="images/image-avatar.png" alt="dude" class="avatar" />
+      </div>
     </header>
 
     Sneaker Company Fall Limited Edition Sneakers These low-profile sneakers are
