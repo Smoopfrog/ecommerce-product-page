@@ -20,21 +20,45 @@ header {
 
 .header-text {
   display: flex;
-  gap: 24px;
+  gap: 36px;
+}
+
+.logo {
+  width: 110px;
+  height: 16px;
 }
 
 .header-links {
   display: flex;
   color: hsl(219, 9%, 45%);
-  font-size: 16px;
-  gap: 16px;
+  font-size: 12px;
+  gap: 18px;
 }
 
-.header-icons{
+.header-icons {
   display: flex;
   gap: 40px;
   align-items: center;
 }
+
 .avatar {
   width: 38px;
+}
+
+.product {
+  display: flex;
+}
+
+.product-images {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.main-image {
+  width: 100%;
+}
+
+.product-info {
+  flex: 1;
 }
