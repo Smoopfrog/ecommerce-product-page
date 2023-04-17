@@ -16,6 +16,7 @@ header {
   align-items: center;
   padding: 20px 0;
   border-bottom: solid 1px hsl(223, 64%, 98%);
+  margin-bottom: 60px;
 }
 
 .header-text {
@@ -47,17 +48,33 @@ header {
 
 .product {
   display: flex;
+  gap: 20px;
 }
 
 .product-images {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  width: 50%;
+  padding: 0 40px;
 }
 
 .main-image {
   width: 100%;
+  border-radius: 10px;
+  margin-bottom: 24px;
 }
+
+.thumbnails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thumbnail-image {
+  width: 20%;
+  border-radius: 10px;
+}
+
 
 .product-info {
   flex: 1;
